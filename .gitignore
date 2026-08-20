@@ -1,0 +1,29 @@
+# CMake and compiler output
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+
+# Frontend dependencies and output
+node_modules/
+dist/
+.vite/
+
+# Runtime data
+*.log
+data/
+wal/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
